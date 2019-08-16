@@ -15,23 +15,17 @@
     <title>EP - Estudantes Pedalantes</title>
   </head>
   <body>
-    <!-- Image and text -->
-    <nav class="navbar navbar-ligth">
-      <a class="navbar-brand text-dark" href="#item1">
-        Estudantes Pedalantes
-      </a>
-    </nav>
-
     <div class="container">
       <div class="row">
         <div class="col-12">
           <img
             src="./images/logo-ep.svg"
             width="200"
-            height="130"
+            height="150"
             class="d-inline-block align-top"
-            alt=""
+            alt="Estudantes Pedalantes"
           />
+          <h2 class="titulo">Pesquisa do projeto Estudantes Pedalantes</h2>
         </div>
       </div>
       <div class="row">
@@ -96,6 +90,7 @@
       <div class="container">
         <div class="dt-termo row">
           <input
+            id="chk-pesquisa"
             class="input_box"
             name="checkbox"
             type="checkbox"
@@ -104,7 +99,12 @@
           <span class="texto_box">
             Eu li, entendi e concordo com estas regras e condições.
           </span>
-          <button type="button" class="btn btn-primary">
+          <button
+            id="bt-pesquisa"
+            type="button"
+            class="btn btn-primary"
+            disabled="disabled"
+          >
             Responder Pesquisa
           </button>
         </div>
@@ -126,5 +126,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
