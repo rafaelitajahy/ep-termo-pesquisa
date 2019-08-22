@@ -2,6 +2,10 @@ body {
   position: relative;
 }
 
+.titulo {
+  padding: 0 0 50px 0;
+}
+
 .container {
   padding: 50px;
   text-align: center;
@@ -10,7 +14,8 @@ body {
 .scrollspySite {
   position: relative;
   overflow: auto;
-  height: 380px;
+  height: 350px;
+  padding: 30px;
 }
 
 .input_box {
@@ -23,7 +28,7 @@ body {
 .texto_box {
   float: left;
   color: #204060;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   margin: 0;
   padding: 0;
