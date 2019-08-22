@@ -10,7 +10,7 @@ body {
 .scrollspySite {
   position: relative;
   overflow: auto;
-  height: 350px;
+  height: 380px;
 }
 
 .input_box {
@@ -27,4 +27,9 @@ body {
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
 }
